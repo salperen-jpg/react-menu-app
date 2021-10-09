@@ -1,0 +1,33 @@
+img {
+  height: 20vh;
+  width: 20vw;
+}
+
+.menu-items {
+  display: grid;
+  grid-gap: 3rem 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  border: 0.25rem #bac345;
+  border-radius: 21px;
+  display: block;
+}
+
+.menu-item {
+  display: grid;
+  grid-gap: 1rem 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.title-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dotted #bac345;
+  margin-bottom: 1rem;
+}
